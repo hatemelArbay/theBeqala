@@ -1,0 +1,72 @@
+
+/* Make all cards the same height */
+.card.category {
+    width: 20.6em;
+    height: 17.5em !important;
+    border-radius: 25px !important;
+    border: none !important;
+  }
+  
+  /* Ensure all images fill the entire card */
+  .card-img-top {
+    object-fit:scale-down;
+  }
+  
+  /* Scale up images on hover */
+  .card:hover .card-img-top {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Center the card title */
+  .card-link  {
+    text-align: center;
+    text-decoration: none !important;
+    justify-content: center;
+    display: flex;
+  }
+  .card-link h5{
+    font-size: 1.5rem;
+    font-weight:normal;
+  }
+  div.row.categoryRow{
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+  }
+  .categ{
+   color: #253d4e;
+  }
+  .categoryCon{
+    margin-top: 4% !important;
+  }
+
+
+  /* Remove padding on row and set flex layout */
+  .row.no-gutters {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .categorybody{
+    color: #253d4e !important;
+    flex: 1 1 25% !important;
+
+  }
+  
+  /* Set the background color of each card */
+  .card.bg-fruits-veggies {
+    background-color: #FFF3EB;
+  }
+  
+  .card.bg-fruits {
+    background-color: #ECFFEC;
+  }
+  
+  .card.bg-vegetables {
+    background-color: #FFF3FF;
+  }
+

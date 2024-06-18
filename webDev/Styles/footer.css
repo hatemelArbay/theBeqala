@@ -1,0 +1,40 @@
+.under{
+    display: flex;
+    flex-flow: wrap;
+  }
+  footer .leftSide p{
+   width: 20em;
+  }
+  
+  footer{
+  margin-top: 8em !important;
+  width: 100%;
+  height: auto;
+  background-color:#3bb77e;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  footer .leftSide{
+     padding-left: 2em;
+     padding-top: 31px;
+  
+  }
+  footer .rightSide{
+   margin-left: 20em;
+   margin-top: 3em;
+   margin-right: 31px;
+  
+   
+  }
+  .copyright{
+      padding-left: -2px;
+      padding-top: 15px;
+      
+  }
+  .copyright a {
+      color: orange;
+  }
+  .copyright p :hover{
+      text-decoration: underline;
+  }

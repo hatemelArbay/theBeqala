@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+html{
+  padding: 0;
+  margin: 0;
+}
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:400;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+  }
+  
+ .navbar-dark .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar .nav-link{
+  color: white;
+}
+.menu{
+  list-style: none;
+}
+  .navbar {
+    background-color: #3ab77f;
+    color: white;
+    font-size: 1.2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-right: 5em;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-start;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    margin: 0;
+ padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-menu.active {
+    display: block;
+  }
+  
+  
+  .fa {
+    margin-left: 0.5em;
+  }
+  
+
+  .dropdown-menu li {
+    margin: 0.5em 0;
+    color: #3bb77e;
+  }
+  
+  .dropdown-menu li a {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 0.8em;
+  }

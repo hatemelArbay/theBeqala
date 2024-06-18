@@ -1,0 +1,17 @@
+.card.contact{
+    border-radius: 25px !important;
+}
+.card label{
+    margin-top: 1rem;
+}
+button.sub{
+    float: right;
+    color: green !important;
+    background-color: lightgreen !important;
+border: none !important;
+}
+
+button.sub:hover{
+    color: lightgreen!important;
+    background-color: green !important;
+}

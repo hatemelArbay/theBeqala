@@ -1,0 +1,39 @@
+{
+    "36": {
+        "id": "36",
+        "name": "John Doe",
+        "phoneNum": "555-1234",
+        "address": "123 Main St",
+        "email": "jdoe@email.com",
+        "productNames": [
+            "Cheerios Cornflakes "
+        ],
+        "productPrices": [
+            "50"
+        ],
+        "productQuantities": [
+            "2"
+        ],
+        "isDelivered": "1"
+    },
+    "37": {
+        "id": "37",
+        "name": "Jane Smith",
+        "phoneNum": "555-5678",
+        "address": "456 Oak St",
+        "email": "jsmith@email.com",
+        "productNames": [
+            "Cantaloupe ",
+            "ColaCola 330ml"
+        ],
+        "productPrices": [
+            "50",
+            "7"
+        ],
+        "productQuantities": [
+            "2",
+            "1"
+        ],
+        "isDelivered": "1"
+    }
+}
